@@ -1,5 +1,5 @@
 #include <iostream>
-#include "player.h"
+#include "Player/player.h"
 #include "Squares/square.h"
 #include "Squares/street.h"
 #include "Squares/jail.h"
@@ -8,7 +8,14 @@
 using namespace std;
 
 int main() {
+    Player* p = new Player();
+    p->setName("Frieder");
+
     Jail* j = new Jail();
     j->landedOn();
+
+    Street* s = new Street();
+    s->setOwner(p);
+
     return 0;
 }
