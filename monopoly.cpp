@@ -16,6 +16,6 @@ int main() {
 
     Street* s = new Street();
     s->setOwner(p);
-
+    
     return 0;
 }
