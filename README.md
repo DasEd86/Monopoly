@@ -1,2 +1,4 @@
 # Monopoly
-Quellcodebeispiel für das in der Vorlesung besprochene Monopolybeispiel.
+Quellcode für das in der Vorlesung besprochene Monopolybeispiel.
+
+Starten des Programms per make.
