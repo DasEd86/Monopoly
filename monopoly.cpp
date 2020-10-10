@@ -17,5 +17,8 @@ int main() {
     Street* s = new Street();
     s->setOwner(p);
     
+    delete(p);
+    delete(j);
+    delete(s);
     return 0;
 }
