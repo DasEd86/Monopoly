@@ -3,7 +3,7 @@
 #include "square.h"
 #include "../Player/player.h"
 
-class Street : Square {
+class Street : public Square {
     private:
         Player* owner;
     public:

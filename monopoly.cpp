@@ -10,15 +10,18 @@ using namespace std;
 int main() {
     Player* p = new Player();
     p->setName("Frieder");
-
-    Jail* j = new Jail();
-    j->landedOn();
-
-    Street* s = new Street();
-    s->setOwner(p);
     
-    delete(p);
-    delete(j);
-    delete(s);
+    Square* square1 = new Jail();
+    square1->landedOn();
+
+    Square* square2 = new Community();
+    square2->landedOn();
+
+    Street* square3 = new Street();
+    square3->setOwner(p);
+    
+    delete(square1);
+    delete(square2);
+    delete(square3);
     return 0;
 }

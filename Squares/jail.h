@@ -3,7 +3,7 @@
 
 #include "square.h"
 
-class Jail : Square {
+class Jail : public Square {
      public:
         void landedOn();
 };
