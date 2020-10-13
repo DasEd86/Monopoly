@@ -10,6 +10,7 @@ class Street : public Square {
         void landedOn();
         void setOwner(Player*);
         Player* getOwner();
+        ~Street() {}
 };
 
 #endif

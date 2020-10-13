@@ -5,6 +5,7 @@
 class Community : public Square {
     public:
         void landedOn();
+        ~Community() {}
 };
 
 #endif

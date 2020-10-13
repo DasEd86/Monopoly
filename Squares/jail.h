@@ -6,6 +6,7 @@
 class Jail : public Square {
      public:
         void landedOn();
+        ~Jail() {}
 };
 
 #endif
